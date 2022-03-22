@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#8a5082,#6f5f90);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+     font-size: 2em;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px ;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background: #fff;
+    color: #2b102b;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/pexels-michelangelo-buonarroti-8728556.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh; 
+}
+#text{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 10vw;
+    z-index: 9;
+    top: 30%;
+}h5{
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 3vw;
+    z-index: 9;
+    top: 50%;
+
+}
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #2b102b;
+}
+h3{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+p{
+    font-size: 1.2em;
+    color: #fff;
+}
+.img1{
+    position: relative;
+    width: 50%;
+    left: 500px;
+    
+}
+.text1{
+    position: absolute;
+    width: 40%;
+
+}
+
+.video1{
+    position: relative;
+    width: 50%;
+    left: 500px;
+}
+.text2{
+    position: absolute;
+    width: 40%;
+    font-size: larger;
+    top: 53%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.text3{
+    position: absolute;
+    color: #fff;
+}
+.active1{
+    position: absolute;
+    right: 10%;
+    bottom: 20px;
+    text-decoration: none;
+    padding: 6px 15px ;
+    color: #6f5f90;
+    border-radius: 20px;
+    border: #fff;
+}
+.active1 a:hover{
+    background: #fff;
+    color: #2b102b;
+    border-radius: 3px;
+    border: #dd14dd;
+    border-color: #dd14dd;
+}
+
